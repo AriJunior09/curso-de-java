@@ -1,4 +1,4 @@
-package Ex02;
+package ex02;
 
 public class Main {
     
