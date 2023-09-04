@@ -23,8 +23,8 @@ public class FuncoesStrings {
         System.out.println("Usando o toLowerCase:  >>>" + s01 + "<<<");  /// Coloca tudo em minúsculo.
         System.out.println("Usando o toUpperCase:  >>>" + s02 + "<<<");  /// Coloca tudo em maiúsculo.
         System.out.println("Usando o trim:         >>>" + s03 + "<<<");  /// Remove os espaços no começo e fim da String.
-        System.out.println("Usando substring(2):   >>>" + s04 + "<<<"); /// Cria uma nova string a partir da posição 2.
-        System.out.println("Usando substring(2,9): >>>" + s05 + "<<<"); /// Cria uma nova string a partir da posição 2 até a 9.
+        System.out.println("Usando substring(2):   >>>" + s04 + "<<<");  /// Cria uma nova string a partir da posição 2.
+        System.out.println("Usando substring(2,9): >>>" + s05 + "<<<");  /// Cria uma nova string a partir da posição 2 até a 9.
         System.out.println("Usando replace(a,x):   >>>" + s06 + "<<<");  /// Troca onde tiver "a" por "x".
         System.out.println("Usando replace(abc,xy):>>>" + s07 + "<<<");  /// Troca onde tiver "abc" por "xy".
         System.out.println("Primeira vez que bc aparece é na posição: " + i);
