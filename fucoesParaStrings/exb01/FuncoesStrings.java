@@ -1,6 +1,6 @@
 package exb01;
 
-public class Main {
+public class FuncoesStrings {
    
     /**
      * @param args
