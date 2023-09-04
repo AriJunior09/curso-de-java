@@ -1,1 +1,1 @@
-## Usando Split
+## Funções Básicas para usar em Strings
