@@ -7,7 +7,7 @@ public class FuncoesStrings {
      */
     public static void main(String[] args) {
 
-        String original = "abcd EFGH abcd EFGH ";
+        String original = " abcd EFGH abcd EFGH ";
 
         String s01 = original.toLowerCase();
         String s02 = original.toUpperCase();
