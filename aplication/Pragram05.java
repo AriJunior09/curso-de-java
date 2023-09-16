@@ -3,9 +3,9 @@ package aplication;
 import java.util.Locale;
 import java.util.Scanner;
 
-import entidades.Produtos;
+import entidade.Produtos;
 
-public class PragramDois {
+public class Pragram05 {
    // Adiciona produtos e remove produtos //
 	
 	public static void main(String[] args) {
