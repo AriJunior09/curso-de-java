@@ -9,10 +9,11 @@ public class Main {
 			int i;
 
 			for (i = 1; i <= n; i++){
-			    int primeiro = i;
-			    int segundo = i * i;
-			    int terceiro = i * i * i;
-
+			    int primeiro = i;         // Insira um valor //
+			    int segundo = i * i;      // Mostra o quadrado //
+			    int terceiro = i * i * i; // Mostra o cubo //
+				
+				
 			    System.out.printf("%d %d %d%n", primeiro, segundo, terceiro);
 
 			}
