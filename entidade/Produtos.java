@@ -36,6 +36,10 @@ public class Produtos {
 		this.preco = preco;
 	}
 	
+	public int getQuantidade(){
+		return quantidade;
+	}
+
 	public double totalValorDoEstoque() {
 		return preco * quantidade;
 	}
