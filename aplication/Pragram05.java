@@ -26,6 +26,12 @@ public class Pragram05 {
 		int quantidade = sc.nextInt();
 		// Abaixo estou usando a classe "Produtos" que está no pacote "entidades" nesse mesmo repositorio //
 		Produtos produtoX = new Produtos(nome, preco, quantidade); 
+
+		produtoX.setNome("Celular");         // Usando método setNome para mudar o nome do produto //
+		System.out.println("Nome atualizado: " + produtoX.getNome());  // Usando o método getNome para motrar o nome atualizado //
+
+		produtoX.setPreco(2000.00);         // Usando método setPreço para mudar o valor do produto //
+		System.out.println("Preço atualizado: " + produtoX.getPreco());  // Usando o método getPreço para motrar o valor atualizado //
 		
 		System.out.println("Dados: " + produtoX); // Mostrando os dados  //
 		System.out.println();
