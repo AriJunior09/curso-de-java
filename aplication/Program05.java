@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 import entidade.Produtos;
 
-public class Pragram05 {
+public class Program05 {
    /* Esse Programa pede ao Usuáio os dados do produto(Nome, Preço e Quantidade) e mostra os dados na tela
       junto com o valor total em estoque, depois pede ao usuário uma quantidade para adicionar no estoque,
 	  após isso mostra os dados atualizado e por fim pede a quantidade para remover do estoque e depois mostra 
@@ -30,6 +30,7 @@ public class Pragram05 {
 		produtoX.setNome("Celular");         // Usando método setNome para mudar o nome do produto //
 		System.out.println("Nome atualizado: " + produtoX.getNome());  // Usando o método getNome para motrar o nome atualizado //
 
+		
 		produtoX.setPreco(2000.00);         // Usando método setPreço para mudar o valor do produto //
 		System.out.println("Preço atualizado: " + produtoX.getPreco());  // Usando o método getPreço para motrar o valor atualizado //
 		
