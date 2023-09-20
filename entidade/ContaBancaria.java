@@ -1,21 +1,27 @@
 package entidade;
 
 public class ContaBancaria {
-
 	private int numero;
 	private String nome;
 	private double saldo;
 	
-	public ContaBancaria(int numero, String nome) {
+	// Construtor Padrão
+	public ContaBancaria() {   
+	}
+	
+	// Construtor de Sobrecarga, Caso o Cliente NÃO tenha valor inicial para deposito// 
+		public ContaBancaria(int numero, String nome) {
+			this.numero = numero;
+			this.nome = nome;
+		}
+	
+	// Construtor de Sobrecarga completo // 
+	public ContaBancaria(int numero, String nome, double valorInicial) {
 		this.numero = numero;
 		this.nome = nome;
+		deposito(valorInicial);
 	}
-
-	public ContaBancaria(int numero, String nome, double depInicial) {
-		this.numero = numero;
-		this.nome = nome;
-		deposito(depInicial);
-	}
+	
 
 	public int getNumero() {
 		return numero;
@@ -32,21 +38,22 @@ public class ContaBancaria {
 	public double getSaldo() {
 		return saldo;
 	}
-
-	public void deposito(double valor) {
-		saldo += valor;
+	
+	public void deposito(double quantia) {
+		saldo += quantia;
 	}
 	
-	public void saque(double valor) {
-		saldo -= valor + 5.0;
+	public void saque(double quantia) {
+		saldo -= quantia + 5.00;
 	}
 	
 	public String toString() {
-		return "\nConta nº: "
+		return "Número da conta: " 
 				+ numero
-				+ "\nNome: "
-				+ nome.toUpperCase()
-				+ "\nSaldo: R$ "
-				+ String.format("%.2f", saldo);
-	}
+				+ ", Nome: "
+				+ nome
+				+ ", Saldo: R$ "
+				+ String.format("%.2f", getSaldo());
+				
+		}
 }
