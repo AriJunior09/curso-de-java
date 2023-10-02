@@ -3,12 +3,13 @@ package aplication;
 import java.util.Scanner;
 
 public class Program09 {
+	/* Esse programa pergunta ao usuário a quantidade de números que ele deseja digitar e após isso
+    pede para o usuário para digitar os números desejados, por fim o programa mostra os números pares e 
+    o total de números pares. Nesse programa é usado "vetores" para praticar os exercicios do curso de Java */
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		/* Esse programa pergunta ao usuário a quantidade de números que ele deseja digitar e após isso
-        pede para o usuário para digitar os números desejados, por fim o programa mostra os números pares e 
-        o total de números pares. Nesse programa é usado "vetores" para praticar os exercicios do curso de Java */
+		
 
 		System.out.print("Quantos números quer digitar?: ");
 		int n = sc.nextInt();           // Pega um número que será o tamanho do vetor
