@@ -9,7 +9,6 @@ public class Program09 {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		
 
 		System.out.print("Quantos números quer digitar?: ");
 		int n = sc.nextInt();           // Pega um número que será o tamanho do vetor
