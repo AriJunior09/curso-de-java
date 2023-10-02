@@ -7,7 +7,7 @@ import entidade.Pensionato;
 public class Program10 {
     /* Esse programa pede ao usuário a quantidade de quartos a serem alugados e depois disso pede /
     / o nome, e-mail e número do quarto. Por fim é mostra a lista de quartos ocupados com o número/ 
-	//o nome e o e-mail do hospede.  */
+	/ o nome e o e-mail do hospede.  */
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
