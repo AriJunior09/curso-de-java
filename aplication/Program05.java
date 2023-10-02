@@ -7,9 +7,9 @@ import entidade.Produtos;
 
 public class Program05 {
    /* Esse Programa pede ao Usuário os dados do produto(Nome, Preço e Quantidade) e mostra os dados na tela
-      junto com o valor total em estoque, depois pede ao usuário uma quantidade para adicionar no estoque,
-	  após isso mostra os dados atualizado e por fim pede a quantidade para remover do estoque e depois mostra 
-	  novamente os dados atualizados */
+   junto com o valor total em estoque, depois pede ao usuário uma quantidade para adicionar no estoque,
+   após isso mostra os dados atualizado e por fim pede a quantidade para remover do estoque e depois mostra 
+   novamente os dados atualizados */
 	
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);

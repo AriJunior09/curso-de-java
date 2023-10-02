@@ -5,8 +5,7 @@ import java.util.Scanner;
 import util.Program06B; // Essa classe está no pacote: util
 
 public class Program06 {
-		/* Esse programa pede o raio e mostra a circunferência e o 
-			volume desse raio */
+		/* Esse programa pede o raio e mostra a circunferência e o volume desse raio */
 	
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
