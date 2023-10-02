@@ -6,6 +6,9 @@ import java.util.Scanner;
 import entidade.ContaBancaria;
 
 public class Program08 {
+	/* Este programa simula a funcionalidade de abertura de uma conta bancária, incluindo a atribuição de um número de /
+	/  conta, nome do titular e um depósito inicial. Após essa etapa, ele exibe o saldo atual da conta e permite a     /
+	/  realização de depósitos e saques, garantindo que o saldo seja sempre atualizado após cada operação.            */
 
 	public static void main(String[] args) {
 
