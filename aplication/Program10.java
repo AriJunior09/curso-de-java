@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import entidade.Pensionato;
 
-public class Program09 {
+public class Program10 {
     /* Esse programa pede ao usuário a quantidade de quartos a serem alugados e depois disso pede //
     // o nome, e-mail e número do quarto */
 
