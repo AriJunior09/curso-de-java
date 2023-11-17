@@ -22,7 +22,7 @@ public class Program16 {
 		p1.addComentario(c1);
 		p1.addComentario(c2);
 		
-		Comentario c3 = new Comentario("Boa noite!");
+		Comentario c3 = new Comentario("Boa noite, durma bem filho.");
 		Comentario c4 = new Comentario("Que a força esteja com você!");
 		Post p2 = new Post(
 				sdf.parse("16/11/2023 23:14:19"), 
