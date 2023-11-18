@@ -46,7 +46,7 @@ public class C17_Cliente {
 	}
 	@Override
 	public String toString() {
-		return nome + " - (" + sdf.format(aniversario) + ") - Email: " + email;
+		return nome + " - (" + sdf.format(aniversario) + ") - E-mail: " + email;
  	}
 	
 	
