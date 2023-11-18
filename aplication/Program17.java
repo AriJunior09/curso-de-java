@@ -55,7 +55,7 @@ public class Program17 {
 		}
 		
 		System.out.println();
-		System.out.println("Resumo do Pedido: ");
+		System.out.println("Resumo do Pedido:");
 		System.out.println(pedido);
 		
 		sc.close();
