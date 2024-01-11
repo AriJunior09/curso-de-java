@@ -7,7 +7,7 @@ import entidade.C18_Triangulo;
 
 public class Program18 {
     /* Esse Programa pede os lados de dois triângulos e depois diz qual o 
-       triangulo que tem a maior área */
+       triangulo que tem a maior área. Pastas usadas: Program08 no pacote aplication e pasta C18_Triangulo no pacote entidade*/
 	
 	public static void main(String[] args) {
 		Locale.setDefault(Locale.US);
