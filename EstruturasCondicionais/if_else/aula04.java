@@ -2,7 +2,7 @@ package switch_case;
 
 import java.util.Scanner;
 
-public class aula03 {
+public class aula04 {
     public static void main(String[] args) {
 
         // -----------------    CALCULE O SEU IMC   -------------------//
