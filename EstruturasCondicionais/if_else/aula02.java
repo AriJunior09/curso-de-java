@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class aula02 {
     public static void main(String[] args) {
 
-        /*___________________    2 NOTAS DE ALUNO PARA ANALISAR    __________________________ */
+        //-------  IF E ELSE - 2 NOTAS DE ALUNO PARA ANALISAR SE FOI APROVADO  ----------//
 
         Scanner sc = new Scanner(System.in); 
 
@@ -27,7 +27,6 @@ public class aula02 {
 
         sc.close();
     }
-
 
     public static double media(double x, double z){ // Criando um metodo "media"
         return (x + z ) / 2;  // Explicando para o programa o que eu quero que o método retorne
