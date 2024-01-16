@@ -5,14 +5,14 @@ import java.util.Scanner;
 public class aula02 {
 
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite um código de operação (1 para Adição, 2 para Subtração): ");
-        int codigoOperacao = scanner.nextInt();
+        int codigoOperacao = sc.nextInt();
 
         realizarOperacao(codigoOperacao);
 
-        scanner.close();
+        sc.close();
     }
 
     public static void realizarOperacao(int codigoOperacao) {
