@@ -32,5 +32,7 @@ public class aula04 {
         else{
             System.out.println("Obesidade Mórbida!");
         }
+
+        sc.close();
     }
 }
