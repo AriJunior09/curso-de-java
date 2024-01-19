@@ -1,4 +1,4 @@
-package switch_case;
+package if_else;
 
 import java.util.Scanner;
 
