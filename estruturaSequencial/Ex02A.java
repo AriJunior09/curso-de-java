@@ -8,7 +8,7 @@ public class Ex02A {
 	
 	public static void main(String[] args) {
 	// LER O RAIO DE UM CIRCULO E DEPOIS MOSTRAR O VALOR DA ÁREA DO CÍRCULO	COM 4 CASAS DECIMAIS 
-		// Fórmula da área: area = π . raio2	
+	// Fórmula da área: area = π . raio2	
 		
 		Scanner sc = new Scanner(System.in);
 		
