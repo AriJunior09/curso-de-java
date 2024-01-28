@@ -7,7 +7,7 @@ public class FuncoesStrings {
      */
     public static void main(String[] args) {
 
-        String original = " abcd EFGH abcd EFGH ";
+        String original = " abcd EFGH ijkl MNOP ";
 
         String s01 = original.toLowerCase();
         String s02 = original.toUpperCase();
@@ -26,7 +26,7 @@ public class FuncoesStrings {
         System.out.println("Usando substring(2):   >>>" + s04 + "<<<");  /// Cria uma nova string a partir da posição 2.
         System.out.println("Usando substring(2,9): >>>" + s05 + "<<<");  /// Cria uma nova string a partir da posição 2 até a 9.
         System.out.println("Usando replace(a,x):   >>>" + s06 + "<<<");  /// Troca onde tiver "a" por "x".
-        System.out.println("Usando replace(abc,xy):>>>" + s07 + "<<<");  /// Troca onde tiver "abc" por "xy".
+        System.out.println("Usando replace(abc,xyz):>>>" + s07 + "<<<");  /// Troca onde tiver "abc" por "xyz".
         System.out.println("Primeira vez que bc aparece é na posição: " + i);
         System.out.println("Última vez que bc aparece  é na posição: " + j );
 
