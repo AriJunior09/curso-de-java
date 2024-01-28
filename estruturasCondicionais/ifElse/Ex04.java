@@ -1,4 +1,4 @@
-package estrutCondicionais.ifElse;
+package ifElse;
 
 import java.util.Scanner;
 
