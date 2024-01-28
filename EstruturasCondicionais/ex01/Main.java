@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class Main {
    
     public static void main(String[] args) {
+		// Usuário digita um numero e o programa mostra o quadrado e o cubo desse valor 
         try (Scanner sc = new Scanner(System.in)) {
 			System.out.print("Digite o número: ");
 			int n = sc.nextInt();
