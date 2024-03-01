@@ -10,5 +10,24 @@ Este programa em Java permite calcular os valores dos impostos ICMS (Imposto sob
 4. Insira o valor inicial em reais (R$), o percentual de ICMS e o percentual de IPI quando solicitado.
 5. O programa calculará e exibirá os valores dos impostos ICMS e IPI.
 
-## Exemplo de Uso
+## Exemplo de Uso:
+```
+Digite o valor: R$ 100,00
+Digite o ICMS(%): 18
+Digite o IPI(%): 5
 
+Valores dos impostos:
+ICMS: R$ 18,00
+IPI: R$ 5,00
+```
+
+---
+
+## Notas
+
+- Certifique-se de inserir valores válidos para o valor inicial e os percentuais de ICMS e IPI.
+- Este programa é apenas para fins educacionais e pode ser modificado conforme necessário.
+
+## Autor
+
+Este programa foi desenvolvido por [Udemy - Curso Java Completo POO + Projetos].
