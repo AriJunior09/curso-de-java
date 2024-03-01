@@ -9,6 +9,8 @@ Os programas abrangem uma variedade de conceitos e práticas em programação or
 ## Conteúdo
 
 - `Program01`: Calculadora de impostos ICMS e IPI.
+- `Program02`: Manipulação de datas utilizando classes do pacote `java.time`.
+- `Program03`: Cadastro e consulta de produtos com lista de entidades.
 - `Program05`: Gerenciamento de produtos com adição e remoção de estoque.
 - `Program06`: Cálculo da circunferência e volume de um círculo.
 - `Program07`: Conversão de dólares para reais com taxa de IOF.
