@@ -1,24 +1,14 @@
-# Objetivo do Programa:
-## O Programa tem como objetivo calcular os impostos de ICMS e IPI a partir dos valores que o usuario inserir.
----
+# Calculadora de Impostos ICMS e IPI
 
-### Ferramentas usadas:
-* **JAVA**
-* **Programação Orientada a Objetos**
+Este programa em Java permite calcular os valores dos impostos ICMS (Imposto sobre Circulação de Mercadorias e Serviços) e IPI (Imposto sobre Produtos Industrializados) com base em um valor inicial e nos percentuais de ICMS e IPI fornecidos pelo usuário.
 
-### Descrição do Programa:
-O programa é organizado em dois pacotes principais: **operacoes** e **entidade**.
+## Como usar
 
-No primeiro pacote, denominado **operacoes**, encontra-se a classe principal chamada **Program01**. 
-Esta classe tem a responsabilidade de receber os valores de entrada do usuário e exibir a saída desejada. 
-Para que a classe **Program01** possa desempenhar essa função, ela precisa importar a classe **impostos** do pacote **entidade**.
+1. Certifique-se de ter o ambiente Java configurado em seu sistema.
+2. Compile o programa utilizando um compilador Java de sua preferência.
+3. Execute o programa compilado.
+4. Insira o valor inicial em reais (R$), o percentual de ICMS e o percentual de IPI quando solicitado.
+5. O programa calculará e exibirá os valores dos impostos ICMS e IPI.
 
-No segundo pacote, denominado **entidade**, encontra-se a classe **impostos**, cujo propósito é criar três variáveis públicas do tipo double.
-Além disso, a classe **impostos** inclui três métodos: dois métodos do tipo double para calcular o ICMS e o IPI, 
-e um terceiro método do tipo String para criar uma representação formatada dos valores desejados, seguindo as melhores práticas de formatação.
+## Exemplo de Uso
 
-
-
-
-
-_Fique a vontade para usar o código ou dá dicas._
