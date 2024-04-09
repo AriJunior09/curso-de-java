@@ -6,7 +6,6 @@ public class Impostos {
 	public double c;
 	
 	
-	
 	public double icms() {
 		double aux;
 		aux = (a * b / 100);
