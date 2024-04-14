@@ -16,22 +16,22 @@ public class Aula01 {
     System.out.println("Exemplo: 02");
     
      int x2;
-     double y2;                // Mudamos para o tipo double
+     double y2;                   // Mudamos para o tipo double
      x2 = 5;
      y2 = 2 * x;
      System.out.println(x2);
-     System.out.println(y2);   // Saída do tipo double
+     System.out.println(y2);      // Saída do tipo double
      System.out.println();
 
 
     System.out.println("Exemplo: 03");
     
-     double b, B, h, area;       // Usando o double
+     double b, B, h, area;         // Usando o double
      b = 6.0;
      B = 8.0;
      h = 5.0;
      area = (b + B) / 2.0 * h;
-    System.out.println(area);   // Saída do tipo double
+    System.out.println(area);       // Saída do tipo double
 
 
     System.out.println("Exemplo: 03 B");
