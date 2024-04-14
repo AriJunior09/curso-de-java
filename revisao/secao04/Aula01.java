@@ -27,10 +27,10 @@ public class Aula01 {
     
      int x3;
      double y3;
-     x2 = 5;
-     y2 = 2 * x;
-     System.out.println(x2);
-     System.out.println(y2);
+     x3 = 5;
+     y3 = 2 * x;
+     System.out.println(x3);
+     System.out.println(y3);
      System.out.println();
 
     }
