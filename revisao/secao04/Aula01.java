@@ -51,7 +51,14 @@ public class Aula01 {
     a4 = 5;
     b4 = 2;
     resultado4 = (double) a4 / b4;     // Avisando que não é para truncar e que quero o resultado em tipo double.   
-    System.out.println(resultado4);  
+    System.out.println(resultado4); 
+    
+    
+    System.out.println("Exemplo: 05");
+    
+    double a5 = 5.2;
+    int b5 = (int)a5;     // Dessa forma eu aviso ao programa que não tem problema em perder algum dado e que quero o resultado no tipo int
+    System.out.println(b5);       
 
     }
 }
