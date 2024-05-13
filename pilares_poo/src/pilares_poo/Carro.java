@@ -1,6 +1,7 @@
 package pilares_poo;
 
-public class Carro {
+public class Carro extends Veiculo{
+	
 	public void ligar() {
 		confereCombustivel();
 		confereCambio();
