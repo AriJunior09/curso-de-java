@@ -1,4 +1,4 @@
-package pilares_poo;
+package veiculos;
 
 public abstract class Veiculo {
 	private String chassi;

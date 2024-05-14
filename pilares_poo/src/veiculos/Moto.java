@@ -1,4 +1,4 @@
-package pilares_poo;
+package veiculos;
 
 public class Moto extends Veiculo{
 	public void ligar() {

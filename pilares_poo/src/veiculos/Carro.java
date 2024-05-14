@@ -1,4 +1,4 @@
-package pilares_poo;
+package veiculos;
 
 public class Carro extends Veiculo{
 	
