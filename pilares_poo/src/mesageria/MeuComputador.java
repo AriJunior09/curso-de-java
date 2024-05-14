@@ -1,22 +1,31 @@
 package mesageria;
 
+import apps.Facebook;
+import apps.MsnMessenger;
+import apps.ServicoMensagem;
+import apps.Telegram;
+
 public class MeuComputador {
 	public static void main(String[] args) {
+		ServicoMensagem servico = null;
 		
-		// Abrindo o MSN
-		MsnMessenger msn = new MsnMessenger();
-		msn.enviarMensagem();
-		msn.receberMensagem();
-		System.out.println(" ");
+		/* Exemplo de caso: Não se sabe qual o app
+		 * Pedrinho vai escolher para enviar e receber
+		 * mensagens;*/
 		
-		Facebook fcb = new Facebook();
-		fcb.enviarMensagem();
-		fcb.receberMensagem();
-		System.out.println(" ");
+		String appEscolhido = "tlg";
 		
-		Telegram tlg = new Telegram();
-		tlg.enviarMensagem();
-		tlg.receberMensagem();
-
+		if(appEscolhido.equals("msn")) {
+			servico = new MsnMessenger();
+		}else if(appEscolhido.equals("fcb")) {
+			servico = new Facebook();
+		}else if(appEscolhido.equals("tlg")) {
+			servico = new Telegram();
+		}
+		
+		servico.enviarMensagem();
+		servico.salvarHistoricoMensagem();
+		servico.receberMensagem();
+		
 	}
 }
