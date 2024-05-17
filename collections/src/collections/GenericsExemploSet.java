@@ -12,18 +12,18 @@ public class GenericsExemploSet {
 		conjuntoSemGenerics.add(10); // Permite add qualquer tipo de obj
 
 		// Exemplo com Generics
-		Set<String> ConjuntoGenerics = new HashSet<>();
-		ConjuntoGenerics.add("Elemento A");
-		ConjuntoGenerics.add("Elemento B");
+		Set<String> conjuntoGenerics = new HashSet<>();
+		conjuntoGenerics.add("Elemento A");
+		conjuntoGenerics.add("Elemento B");
 
 		// Interando sobre a conjunto com Generics
-		for (String elemento: ConjuntoGenerics) {
+		for (String elemento: conjuntoGenerics) {
 			System.out.println(elemento);
 		}
 
 		// Interando sobre o conjunto sem Generics(necessário fazer o cast)
 		for (Object elemento: conjuntoSemGenerics) {
-			String str = (String) elemento;
+			String str = elemento.toString();
 			System.out.println(str);
 		}
 
