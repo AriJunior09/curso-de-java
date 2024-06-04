@@ -17,6 +17,7 @@ public class Program19 {
         System.out.println("Veja a Lista: " + numeros);
         System.out.println("Multiplicando a Lista por: " + entrada);
         numeros.stream().map(n -> n * entrada).collect(Collectors.toList()).forEach(System.out::println);
+        
 
         sc.close();
     }
