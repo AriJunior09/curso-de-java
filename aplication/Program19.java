@@ -11,14 +11,13 @@ public class Program19 {
         List<Integer> numeros = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
 
         Scanner sc = new Scanner(System.in);
-        
+
         System.out.print("Digite um numero: ");
         int entrada = sc.nextInt();
 
         System.out.println("Veja a Lista: " + numeros);
         System.out.println("Multiplicando a Lista por: " + entrada);
         numeros.stream().map(n -> n * entrada).collect(Collectors.toList()).forEach(System.out::println);
-
 
         sc.close();
     }
