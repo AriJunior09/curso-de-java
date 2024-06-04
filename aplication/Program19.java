@@ -20,5 +20,6 @@ public class Program19 {
         numeros.stream().map(n -> n * entrada).collect(Collectors.toList()).forEach(System.out::println);
 
         sc.close();
+        
     }
 }
